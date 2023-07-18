@@ -30,11 +30,11 @@ namespace Assignment9
                 {
                     throw new ValidationException($"Error{Name} invalid ,Name should be 6 digit");
                 }
-                if (l2 < 8)
+               else if (l2 < 8)
                 {
                     throw new ValidationException($"Error{Password} invalidPassword should be 8 digit");
                 }
-                else
+                else 
                 {
                     Console.WriteLine("valiadation successfull");
                     Console.WriteLine("your Details are");
